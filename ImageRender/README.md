@@ -10,7 +10,7 @@
  * [License](#license)
 
 ## Introduction
-The Image Render service provides basic and advanced animation effects to help you reproduce image contents in an efficient way.
+The Image Render service provides basic and advanced animation effects to help you reproduce image contents in an efficient way. This sample code encapsulates APIs of the HUAWEI Image Kit Render Service, it provides a sample programs for your reference or usage.
 
 1. Supports five basic animations and any of their combination.
 
@@ -19,7 +19,7 @@ The Image Render service provides basic and advanced animation effects to help y
 For details, please refer to [XML Syntax Specifications for Image Render](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/xml-introduction-0000001050439245).
 
 ## Getting Started
-1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).
+1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
 2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
 3. Create an app and configure the app information in AppGallery Connect. 
    See details: [HUAWEI Image Service Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/config-agc-0000001050199019)
@@ -35,12 +35,22 @@ For details, please refer to [XML Syntax Specifications for Image Render](https:
 
 - Gradle 3.3.2.
 
-- HMS Core (APK) 4.0.2.300 or later.
+- HMS Core (APK) 4.0.2.300 or later(applicable to the SDK, but not the fallback-SDK).
 
 
 ## Result
 
-   <img src="./ScreenShot.jpg" width = 30% height = 30%>
+   <img src="./ScreenShot.PNG" width = 30% height = 30%>
+
+## Question or issues
+If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
+
+If you have questions about how to use HMS samples, try the following options:
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+`huawei-mobile-services`.
+- [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
+
+If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-image-render/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-image-render/pulls) with a fix.
 
 ##  License
 
